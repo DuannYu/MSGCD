@@ -1,0 +1,6 @@
+*.pyc
+*.pkl
+.vscode/
+
+__pycache__
+dev_outputs
