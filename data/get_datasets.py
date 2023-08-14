@@ -1,6 +1,6 @@
 from data.data_utils import MergedDataset
 
-from data.cifar import get_cifar_10_datasets, get_cifar_100_datasets
+from data.cifar import get_cifar_100_datasets
 from data.stanford_cars import get_scars_datasets
 from data.cub import get_cub_datasets
 from data.fgvc_aircraft import get_aircraft_datasets
@@ -13,7 +13,6 @@ from config import osr_split_dir
 
 
 get_dataset_funcs = {
-    'cifar10': get_cifar_10_datasets,
     'cifar100': get_cifar_100_datasets,
     'cub': get_cub_datasets,
     'aircraft': get_aircraft_datasets,

@@ -1,7 +1,6 @@
 # -----------------
 # DATASET ROOTS
 # -----------------
-cifar_10_root = 'path/to/data'
 cifar_100_root = 'path/to/data'
 cub_root = 'path/to/data'
 aircraft_root = 'path/to/data'
