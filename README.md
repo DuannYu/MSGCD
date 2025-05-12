@@ -14,6 +14,9 @@ This work focuses on the problem of Generalized Category Discovery (GCD), a more
 pip install -r requirements.txt
 ```
 
+about ```torch clustering```
+You can see the following [repo](https://github.com/Hzzone/torch_clustering) to install the clustering part.
+
 ### Config
 
 Set paths to datasets and desired log directories in ```config.py```
@@ -47,3 +50,16 @@ Our results in  four datasets:
 ## Acknowledgements
 
 The codebase is largely built on this repo: https://github.com/sgvaze/generalized-category-discovery.
+
+## Citations
+If you use our code, please cite our work as:
+```bibtex
+@article{duan2025mutual,
+  title={Mutual-support generalized category discovery},
+  author={Duan, Yu and Hu, Zhanxuan and Wang, Rong and Sun, Zhensheng and Nie, Feiping and Li, Xuelong},
+  journal={Information Fusion},
+  pages={103020},
+  year={2025},
+  publisher={Elsevier}
+}
+```
